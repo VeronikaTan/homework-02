@@ -4,7 +4,19 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
@@ -12,8 +24,8 @@
         <a href=""><span>Web</span>Studio</a>
 
         <ul class="head-nav">
-          <li><a href="">Студия</a></li>
-          <li><a href="">Портфолио</a></li>
+          <li><a href="./index.html">Студия</a></li>
+          <li><a href="./portfolio.html" class="current-page">Портфолио</a></li>
           <li><a href="">Контакты</a></li>
         </ul>
         <ul class="head-contacts">
@@ -23,6 +35,19 @@
       </nav>
     </header>
     <main>
+      <ul class="page-nav">
+        <li><button type="button" class="page-nav-button">Всё</button></li>
+        <li>
+          <button type="button" class="page-nav-button">Веб-Сайты</button>
+        </li>
+        <li>
+          <button type="button" class="page-nav-button">Приложения</button>
+        </li>
+        <li><button type="button" class="page-nav-button">Дизайн</button></li>
+        <li>
+          <button type="button" class="page-nav-button">Маркетинг</button>
+        </li>
+      </ul>
       <ul>
         <li>
           <img src="./images/portfolio1" alt="" width="370" />

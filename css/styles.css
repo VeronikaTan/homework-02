@@ -1,0 +1,131 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --thirdparty-text-color: #ffffff;
+  --accent-color: #2196f3;
+  --primary-background-color: #e5e5e5;
+  --button-background-color: #f5f4fa;
+  --footer-background-color: #2f303a;
+  --contacts-footer-color: rgba(255, 255, 255, 0.6);
+}
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  display: block;
+}
+ul,
+li {
+  list-style: none;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+.list {
+  list-style-type: none;
+  text-decoration: none;
+}
+.current-page {
+  color: var(--accent-color);
+}
+.logo-head {
+  font-weight: 700;
+  color: var(--primary-text-color);
+  font-family: Raleway;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+  line-height: 31px;
+}
+span {
+  color: var(--accent-color);
+}
+.head-nav {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+.head-nav-link {
+  font-size: 16px;
+  line-height: 1;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+  text-decoration: none;
+  font-weight: 500;
+  display: block;
+  margin-left: 50px;
+}
+.head-nav-link:hover,
+.head-nav-link:focus {
+  color: var(--accent-color);
+}
+.head-contacts {
+  font-size: 16px;
+  line-height: 1;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+  text-decoration: none;
+  font-weight: 500;
+  display: block;
+}
+.head-contacts-link:hover,
+.head-contacts-link:focus {
+  color: var(--accent-color);
+}
+.head-contacts-link {
+  color: var(--primary-text-color);
+}
+.hero {
+  background-color: #2f303a;
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
+}
+.hero-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--thirdparty-text-color);
+}
+.hero-button {
+  background-color: var(--accent-color);
+  color: var(--thirdparty-text-color);
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding-left: 32px;
+  padding-top: 10px;
+  padding-right: 32px;
+  padding-bottom: 10px;
+  border-color: transparent;
+  text-align: center;
+}
+/*PORTFOLIO*/
+/*..............................*/
+/*...............................*/
+/*..................................*/
+.page-nav {
+}
+.page-nav-button {
+  display: inline-block;
+}
