@@ -8,6 +8,11 @@
   --footer-background-color: #2f303a;
   --contacts-footer-color: rgba(255, 255, 255, 0.6);
 }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -15,10 +20,7 @@
   margin-left: auto;
   margin-right: auto;
 }
-body {
-  font-family: Roboto, sans-serif;
-  color: var(--primary-text-color);
-}
+
 img {
   display: block;
 }
@@ -26,11 +28,7 @@ ul,
 li {
   list-style: none;
 }
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -54,7 +52,6 @@ span {
   color: var(--accent-color);
 }
 .head-nav {
-  font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -93,14 +90,14 @@ span {
   color: var(--secondary-text-color);
 }
 .hero {
-  background-color: #2f303a;
+  background-color: var(--footer-background-color);
+  /*
   width: 1600px;
   height: 600px;
   left: 0px;
-  top: 80px;
+  top: 80px;*/
 }
 .hero-title {
-  font-family: Roboto;
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -110,8 +107,7 @@ span {
   text-transform: uppercase;
   color: var(--thirdparty-text-color);
 }
-.hero-content {
-}
+
 .hero-button {
   background-color: var(--accent-color);
   color: var(--thirdparty-text-color);
@@ -129,6 +125,13 @@ span {
   font-weight: bold;
   cursor: pointer;
 }
+.hero-button:hover,
+.hero-button:focus {
+  background: #188ce8;
+}
+.column {
+  background-color: #ffffff;
+}
 .column-title {
   font-weight: bold;
   font-size: 14px;
@@ -142,12 +145,18 @@ span {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
+.workspace {
+  background-color: #ffffff;
+}
 .workspace-title {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
+}
+.team {
+  background-color: #f5f4fa;
 }
 .team-title {
   font-weight: bold;
@@ -170,7 +179,7 @@ span {
   color: var(--secondary-text-color);
 }
 .footer-logo {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
@@ -209,7 +218,7 @@ footer {
   background-color: var(--button-background-color);
   border-radius: 4px;
   border-color: transparent;
-  font-family: Roboto;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -222,4 +231,21 @@ footer {
 .page-nav-button:focus {
   background-color: var(--accent-color);
   color: var(--thirdparty-text-color);
+}
+
+.card {
+}
+.card-rede {
+}
+.card-title {
+  font-style: Bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.card-text {
+  color: var(--secondary-text-color);
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
 }
