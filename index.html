@@ -25,7 +25,7 @@
 
         <ul class="list head-nav">
           <li>
-            <a href="./index.html" class="head-nav-link current-page">Студия</a>
+            <a href="./index.html" class="current-page head-nav-link">Студия</a>
           </li>
           <li>
             <a href="./portfolio.html" class="head-nav-link">Портфолио</a>
@@ -34,51 +34,53 @@
             <a href="" class="head-nav-link">Контакты</a>
           </li>
         </ul>
-        <ul class="head-contacts list">
-          <li><a href="" class="head-contacts-link">info@devstudio.com</a></li>
-          <li><a href="" class="head-contacts-link">+38 096 111 11 11</a></li>
-        </ul>
       </nav>
+      <ul class="head-contacts list">
+        <li><a href="" class="head-contacts-link">info@devstudio.com</a></li>
+        <li><a href="" class="head-contacts-link">+38 096 111 11 11</a></li>
+      </ul>
     </header>
     <main>
       <section class="hero">
-        <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-        <button type="button" class="hero-button">Заказать услугу</button>
+        <div class="hero-content">
+          <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+          <button type="button" class="hero-button">Заказать услугу</button>
+        </div>
       </section>
-      <section>
+      <section class="column">
         <ul class="list">
           <li>
-            <h3>Внимание к деталям</h3>
-            <p>
+            <h3 class="column-title">Внимание к деталям</h3>
+            <p class="column-description">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
           </li>
           <li>
-            <h3>Пунктуальность</h3>
-            <p>
+            <h3 class="column-title">Пунктуальность</h3>
+            <p class="column-description">
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
           </li>
           <li>
-            <h3>Планирование</h3>
-            <p>
+            <h3 class="column-title">Планирование</h3>
+            <p class="column-description">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
           </li>
           <li>
-            <h3>Современные технологии</h3>
-            <p>
+            <h3 class="column-title">Современные технологии</h3>
+            <p class="column-description">
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
             </p>
           </li>
         </ul>
       </section>
-      <section>
-        <h2>Чем мы занимаемся</h2>
+      <section class="workspace">
+        <h2 class="workspace-title">Чем мы занимаемся</h2>
         <ul class="list">
           <li>
             <img
@@ -103,43 +105,45 @@
           </li>
         </ul>
       </section>
-      <section>
-        <h2>Наша команда</h2>
+      <sectionn class="team">
+        <h2 class="team-title">Наша команда</h2>
         <ul class="list">
-          <li>
+          <li class="team-player">
             <img src="./images/person1.jpg" alt="парень в очках" width="270" />
-            <h4>Игорь Демьяненко</h4>
-            <p>Product Designer</p>
+            <h3 class="team-player-name">Игорь Демьяненко</h3>
+            <p class="team-player-position">Product Designer</p>
           </li>
-          <li>
+          <li class="team-player">
             <img src="./images/person2.jpg" alt="девушка в очках" width="270" />
-            <h4>Ольга Репина</h4>
-            <p>Frontend Developer</p>
+            <h3 class="team-player-name">Ольга Репина</h3>
+            <p class="team-player-position">Frontend Developer</p>
           </li>
-          <li>
+          <li class="team-player">
             <img
               src="./images/person3.jpg"
               alt="парень улыбается"
               width="270"
             />
 
-            <h4>Николай Тарасов</h4>
-            <p>Marketing</p>
+            <h3 class="team-player-name">Николай Тарасов</h3>
+            <p class="team-player-position">Marketing</p>
           </li>
-          <li>
+          <li class="team-player">
             <img src="./images/person4.jpg" alt="парень в очках" width="270" />
-            <h4>Михаил Ермаков</h4>
-            <p>UI Designer</p>
+            <h3 class="team-player-name">Михаил Ермаков</h3>
+            <p class="team-player-position">UI Designer</p>
           </li>
         </ul>
-      </section>
+      </sectionn>
     </main>
     <footer>
-      <a href="/"><span>Web</span>Studio</a>
+      <a href="" class="footer-logo"><span>Web</span>Studio</a>
       <address>
-        <p>г. Киев, пр-т Леси Украинки, 26</p>
-        <a href="mailto:info@example.com">info@example.com</a><br />
-        <a href="tel:+380961111111">+38 096 111 11 11</a>
+        <p class="footer-address">г. Киев, пр-т Леси Украинки, 26</p>
+        <a href="mailto:info@example.com" class="footer-mail"
+          >info@example.com</a
+        ><br />
+        <a href="tel:+380961111111" class="footer-phone">+38 096 111 11 11</a>
       </address>
     </footer>
   </body>
